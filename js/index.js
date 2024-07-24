@@ -124,7 +124,7 @@ gsap.to('#navigation-content',0,{display:'flex',delay:2});
 })
 
 
-$('#portfolio-link').on('click',function(){
+$('#portfolio-liink').on('click',function(){
   gsap.to('#navigation-content',0,{display:"none",delay:.7});
   gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
 gsap.to('#header',0,{display:"none"});
