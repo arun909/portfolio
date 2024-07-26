@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwvlnOlLcFqbv6d2dBM6Ooa_23JmooiQo-z7jqE7ugGiX6xkUqvR9_Mn6i64UjxSNv2IA/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzF6XG-9yDC26Fq14eurgp8MjE1VuJLIG4lCCbg1ufUizvKRUAiMP3wySmNEid3jLlhvA/exec'
 const form = document.forms['contact-form']
 
 form.addEventListener('submit', e => {
@@ -8,3 +8,4 @@ form.addEventListener('submit', e => {
  .then(() => { window.location.reload(); })
  .catch(error => console.error('Error!', error.message))
 })
+
