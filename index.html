@@ -415,20 +415,21 @@
         <div class="contact-content">
 
             <!--Contact form-->
-             <div class="contact-form">
-                 <div class="form-header">
-                     Message Me
-                 </div>
-                 <form id="myForm" action="#">
+            <div class="contact-form">
+                <div class="form-header">
+                    Message Me
+                </div>
+                <form id="myForm" action="https://formspree.io/f/xnnajkgy" method="post">
                     <div class="input-line">
-                        <input  id="name" type="text" placeholder="Name" class="input-name">
-                        <input id="email" type="email" placeholder="Email"  class="input-name">
+                        <input id="name" name="name" type="text" placeholder="Name" class="input-name" required>
+                        <input id="email" name="email" type="email" placeholder="Email" class="input-name" required>
                     </div>
-                    <input type="text" id="subject" placeholder="subject" class="input-subject">
-                    <textarea id ="body" class="input-textarea" placeholder="message"></textarea>
-                    <button type="button" id ="submit" value="send">Submit</button>
-                 </form>       
-             </div>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" class="input-subject" required>
+                    <textarea id="body" name="message" class="input-textarea" placeholder="Message" required></textarea>
+                    <button type="submit" id="submit" value="send">Submit</button>
+                </form>       
+            </div>
+            
 
 
             <!--Contact form-->
